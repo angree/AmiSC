@@ -39,9 +39,9 @@ Amiga) and `.zip` (if you prefer to unpack on a PC and copy the drawer across).
 * **RTG:** a fast 68040 as the floor.
 * Best experience: 68060 or 080 **with** a graphics card.
 
-On slower machines use the `lores` variants. They draw 320×240 and scale up:
-four times fewer pixels go through the chunky-to-planar conversion every frame,
-which on a plain 68020 is the difference between watchable and not.
+On slower machines pick a 320×240 mode in the menu. It draws a quarter of the
+pixels and scales up on the way to the screen, which on a plain 68020 is the
+difference between watchable and not.
 
 ---
 
@@ -108,24 +108,34 @@ point unless you are keeping the files for later.
 
 ## Starting it
 
-Double-click one of these, depending on your machine:
+Double-click **`SC_universal`**. It works out the display itself — a graphics
+card (RTG / Picasso96) when the machine has one, AGA otherwise — and the VIDEO
+row of the start menu switches between all four modes while it runs: **RTG or
+AGA**, **640×480 or 320×240**. If a mode refuses to open, the menu says so and
+falls back to the one that was working.
+
+The other four are the same game with the display nailed down, for comparing
+modes without editing anything:
 
 | program | display |
 |---|---|
-| `SC` | graphics card (RTG), 640×480 |
-| `SC_lores` | graphics card, 320×240 |
+| `SC_RTG` | graphics card, 640×480 |
+| `SC_RTG_lores` | graphics card, 320×240 |
 | `SC_AGA` | AGA, 640×480 |
 | `SC_AGA_lores` | AGA, 320×240 |
-| `SC_MENU` | picks the mode itself, and lets you change it in the menu |
 
-If you are not sure, start with `SC_MENU`.
+Do not start `SC_RTG` on a machine without a graphics card — the picture has
+nowhere to go and the screen stays black. `SC_universal` never has that problem.
 
-The icons already carry the 2 MB stack the game needs. From a Shell you have to
-set it yourself, or it hangs silently while loading:
+On a slower Amiga try 320×240 before deciding the game is too heavy — a quarter
+of the pixels then go through the chunky-to-planar conversion every frame.
+
+The icon already carries the 2 MB stack the game needs. From a Shell you have
+to set it yourself, or it hangs silently while loading:
 
 ```
 Stack 2000000
-SC_AGA
+SC_universal
 ```
 
 Settings are in `bwshow.cfg`, plain text, next to the program. When something
