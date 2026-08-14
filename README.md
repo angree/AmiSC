@@ -150,6 +150,11 @@ Skirmish against computer opponents, all three races, fog of war, the command
 card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat. Data from either release of the original.
 
+**New in v0.2.0:** costs shown on the command buttons when you hover over them,
+a progress bar and a CANCEL button for research and upgrades, and a message in
+red above the minimap when an order is refused — not enough minerals, not
+enough supply, nowhere to put the building.
+
 ## What does not — the honest list
 
 This is where the alpha shows.
@@ -157,7 +162,6 @@ This is where the alpha shows.
 * **The computer opponent is unfinished.** It builds and fortifies itself
   reasonably well, but attacks poorly, so it is much easier to beat than it
   should be. The first race in particular still beats the other two every time.
-* **Unit and building costs are not shown** on the command buttons yet.
 * **Units sometimes walk over terrain they should not be able to cross.**
 * **On large maps the minimap is drawn too large** and covers part of the view.
 * **No sound at all.** The Amiga audio side is not written yet.
@@ -168,10 +172,8 @@ This is where the alpha shows.
 
 ## Source code
 
-Not published yet, and the reason is dull rather than dramatic: the comments
-are still in Polish. They have to be translated before the code is any use to
-anyone else, and that work is queued. Until then this repository carries
-binaries only and no licence for the port itself.
+Not published. This repository carries binaries only and no licence for the
+port itself.
 
 The converter shipped in `pc-tools` links **CascLib** and **StormLib** by
 Ladislav Zezula, both under the MIT licence. Their notice travels with the
