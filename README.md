@@ -1,6 +1,6 @@
 # AmiSC 68K
 
-**Made with help of Claude Code, so if you don't like AI, skip this project**
+**Made with the help of Claude Code, so if you don't like AI, skip this project**
 
 **An Amiga 68k port of the best space RTS strategy game.** The engine runs
 natively on AmigaOS 3.x — no PC emulation, no interpreter. Integer arithmetic
