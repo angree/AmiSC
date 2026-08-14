@@ -1,7 +1,5 @@
 # AmiSC 68K
 
-**Made with the help of Claude Code, so if you don't like AI, skip this project**
-
 **An Amiga 68k port of the best space RTS strategy game.** The engine runs
 natively on AmigaOS 3.x — no PC emulation, no interpreter. Integer arithmetic
 only: the binary contains not one FPU instruction, because plenty of 68k
@@ -152,6 +150,8 @@ Skirmish against computer opponents, all three races, fog of war, the command
 card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat. Data from either release of the original.
 
+**New in v0.2.1:** the minimap is reduced to fit on maps bigger than 128 tiles.
+
 **New in v0.2.0:** costs shown on the command buttons when you hover over them,
 a progress bar and a CANCEL button for research and upgrades, and a message in
 red above the minimap when an order is refused — not enough minerals, not
@@ -165,7 +165,6 @@ This is where the alpha shows.
   reasonably well, but attacks poorly, so it is much easier to beat than it
   should be. The first race in particular still beats the other two every time.
 * **Units sometimes walk over terrain they should not be able to cross.**
-* **On large maps the minimap is drawn too large** and covers part of the view.
 * **No sound at all.** The Amiga audio side is not written yet.
 * **No campaign** and no mission briefings.
 * **No multiplayer.** Computer opponents only, for now.
