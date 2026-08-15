@@ -150,6 +150,11 @@ Skirmish against computer opponents, all three races, fog of war, the command
 card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat. Data from either release of the original.
 
+**New in v0.3.0:** terrain blocks movement again — a compiler defect made the
+engine read the wrong half of every walkability flag, so units crossed cliffs
+and water. The title picture is also raised so the publisher's logo is not
+clipped.
+
 **New in v0.2.1:** the minimap is reduced to fit on maps bigger than 128 tiles.
 
 **New in v0.2.0:** costs shown on the command buttons when you hover over them,
