@@ -160,6 +160,12 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.4.1:** right-button map scrolling works like OpenTTD's. The
+pointer stays parked at the screen centre while you drag, so the drag is not
+stopped by the screen edge — and under an emulator's magic mouse the host
+cursor stays in the window too. The view follows the mouse and stops when you
+let go; a right click still gives the order it always did.
+
 **New in v0.4.0:** sound and music. Unit voices when you select them and when
 you give an order, weapons, the command card, building placement, the refusal
 buzz, and the game's own music streamed off the disk and picked to match the
