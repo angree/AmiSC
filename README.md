@@ -160,6 +160,15 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.5.0:** the computer opponent plays the whole game — it expands
+(scouts the site, saves for the main building, sends new workers to the new
+base, opens a second gas), defends with everything it has at home instead of
+one unit at a time, and both zerg and terran got their build orders fixed (a
+lair still counts as a hatchery, a sunken as a creep colony; factories and
+starports are placed with room for their add-ons). Resources are reserved for
+what the AI has decided to build, hopeless orders are dropped, and on island
+maps it does not walk to expansions it cannot reach.
+
 **New in v0.4.1:** right-button map scrolling works like OpenTTD's. The
 pointer stays parked at the screen centre while you drag, so the drag is not
 stopped by the screen edge — and under an emulator's magic mouse the host
