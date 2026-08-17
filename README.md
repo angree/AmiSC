@@ -160,6 +160,11 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.5.6:** the command card shows a unit only once its tech building
+stands (Academy, Armory, Covert Ops...) and names what is missing - Firebat,
+Medic, Ghost, Goliath, Science Vessel, Battlecruiser and Valkyrie looked
+unbuildable before.
+
 **New in v0.5.5:** computer opponent (AI) updates - full-size attack waves,
 better spending and expansion, fewer stalls in its build order.
 
