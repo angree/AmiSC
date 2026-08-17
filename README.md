@@ -160,6 +160,9 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.5.2:** arrow-key scrolling works and its speed is settable - a
+new OPTIONS page in the start menu (200 px/s by default, edge scrolling too).
+
 **New in v0.5.1:** mineral fields show what is left in them, terran add-ons can be built (so Siege Tanks too), a right click no longer jumps the pointer.
 
 **New in v0.5.0:** the computer opponent plays the whole game — it expands
