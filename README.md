@@ -160,6 +160,12 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.5.9:** the screen title bar can be switched off - OPTIONS, SCREEN
+TITLE BAR - so the game and the title picture use the whole screen.
+
+**New in v0.5.8:** a zerg unit in an egg can always be cancelled - the egg now
+has a CANCEL button, and with several eggs selected every press cancels one.
+
 **New in v0.5.7:** the advisor speaks when an order is refused - not enough
 minerals, not enough vespene gas, more supply needed - as on the PC.
 
