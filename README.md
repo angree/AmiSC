@@ -160,6 +160,9 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.5.7:** the advisor speaks when an order is refused - not enough
+minerals, not enough vespene gas, more supply needed - as on the PC.
+
 **New in v0.5.6:** the command card shows a unit only once its tech building
 stands (Academy, Armory, Covert Ops...) and names what is missing - Firebat,
 Medic, Ghost, Goliath, Science Vessel, Battlecruiser and Valkyrie looked
