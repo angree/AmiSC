@@ -160,6 +160,10 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.5.10:** the music converter recognises music it has already
+converted (instead of reporting failures), says why any file really fails, and
+reads the original CD installers where the CD version keeps its music.
+
 **New in v0.5.9:** the screen title bar can be switched off - OPTIONS, SCREEN
 TITLE BAR - so the game and the title picture use the whole screen.
 
