@@ -160,6 +160,15 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.6.0:** the zerg can go up their tech tree again - a Hatchery, a
+Lair, a Spire and a Creep Colony had no upgrade button at all, so there was
+no Lair, no Hive, no Greater Spire and no Sunken or Spore Colony. All five
+are back, with the game's own hotkeys. A building you cannot have yet is
+drawn dead and says what it needs. The advisor is heard to the end and comes
+from both speakers, loading a sound no longer stutters the game, and far
+more sound plays at all. Right-button scrolling returns the pointer where it
+found it.
+
 **New in v0.5.10:** the music converter recognises music it has already
 converted (instead of reporting failures), says why any file really fails, and
 reads the original CD installers where the CD version keeps its music.
