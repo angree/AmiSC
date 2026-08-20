@@ -160,6 +160,14 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.6.2:** a building goes down where the pointer is - the outline
+used to start at the cursor and reach down and to the right, which next to a
+deposit was the difference between fitting and not, and a refinery now snaps
+onto the geyser under the pointer. Ground that refuses a building says so.
+A click on one wireframe in the panel keeps just that unit, a control
+group's digit pressed twice jumps the view to it, and the right button on
+the minimap sends the selection there.
+
 **New in v0.6.0:** the zerg can go up their tech tree again - a Hatchery, a
 Lair, a Spire and a Creep Colony had no upgrade button at all, so there was
 no Lair, no Hive, no Greater Spire and no Sunken or Spore Colony. All five
