@@ -160,6 +160,14 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.6.5:** the computer gets its army home. A force sent back to
+defend used to stop just outside its own base and stay there - alive, in the
+middle of the map, ordered home again every ten seconds and never arriving.
+Over twelve test matches: two thirds fewer wasted orders and one more
+opponent finished off. The Ultralisk and the Broodling no longer show a
+BURROW button they cannot use, the Drone finally has the one it should
+always have had, and a geyser that runs dry says so.
+
 **New in v0.6.4:** the computer opponent plays its own opening. One game
 in eight the zerg computer goes for the fastest attack the game has - a
 spawning pool at four workers and six of the small ones straight at your
