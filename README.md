@@ -160,6 +160,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.6.7:** the computer opponent stops pushing its cannons out in front of the base. That behaviour helped when it was added; a later change - it no longer picks building sites on ground it has never seen - does the same job better, and with both in place it defended instead of winning. Six runs say the same thing: it kept more of its own buildings and destroyed fewer of yours. Only one race ever placed anything forward, so nothing else about how it plays changes.
+
 **New in v0.6.6:** the computer opponent defends the side it is attacked from. Its cannons and turrets used to go wherever there was room, which was as often behind the base as in front of it; now they face the threat. It also stops picking building sites on ground it has never seen - the single largest cause of its failed construction - and it will burrow its lurkers, deploy its siege tanks, and load an army onto a transport to cross water it used to walk around. It no longer repeats an order that does nothing.
 
 **New in v0.6.5:** the computer gets its army home. A force sent back to
