@@ -160,6 +160,12 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.7.7:** the original menu. The main menu, Single Player (ID selection, then Play Custom or Load Saved) and the Multiplayer connection screen are drawn from your own data files - the original layouts, backgrounds and animated buttons - and the Amiga settings moved to a new AMIGA OPTIONS screen. Campaigns, replays, the editor and network play are greyed out. It needs the original data (up to 1.16.1); with data converted from the modern re-release the program shows its own menu as before. The Play Custom panels are on the original CD in `BroodWar.mpq` - copy it into `data` too, or similar panels are used. The menu font is derived from Orbitron (SIL Open Font License, `FONT-LICENSE.txt`).
+
+**New in v0.7.6:** a LOGIC setting (FAST / FASTEST) for crowded late games, save and load, computer versus computer, and a scrolling start menu.
+
+**New in v0.7.3:** smoother 320x240 graphics - the filter now covers the whole inside of every unit and building instead of only the parts far from its outline, and the terrain is filtered properly once per terrain type and kept in a file. If you converted with v0.7.0-0.7.2, the game asks once whether to convert again for the better quality; "keep as is" is remembered in `settings.cfg` (`smooth_lores_gfx 0`).
+
 **New in v0.7.2:** the native 320x240 mode now works on a graphics card too - `SC_RTG_lores` used to run at full size with nothing converted. The remembered game speed is the one last chosen in the menu; a change made during a match no longer overwrites it.
 
 **New in v0.7.1:** the game starts at SLOW speed instead of FASTEST. At FASTEST the game logic alone takes about 80% of a typical Amiga's time and leaves little for drawing; at SLOW the same machine shows a decent frame rate. Raise the speed whenever you like and see what it costs - the speed you last used, in the menu or during a match, is remembered for the next start.
