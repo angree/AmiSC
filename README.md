@@ -160,6 +160,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.7.9:** much less memory, for 64 MB machines. In 320x240 the full-size graphics are not loaded at all once the converted ones exist (about 28 MB less and a shorter start), and the terrain is no longer held twice (8-10 MB less in every mode). 320x240 now needs about 12 MB less than 640x480 - it used to need 8 MB more. Switching to 640x480 in the menu loads the full graphics then, once, with no restart. The menu also shows the Workbench title bar when it is switched on, and credits the port's author.
+
 **New in v0.7.7:** the original menu. The main menu, Single Player (ID selection, then Play Custom or Load Saved) and the Multiplayer connection screen are drawn from your own data files - the original layouts, backgrounds and animated buttons - and the Amiga settings moved to a new AMIGA OPTIONS screen. Campaigns, replays, the editor and network play are greyed out. It needs the original data (up to 1.16.1); with data converted from the modern re-release the program shows its own menu as before. The Play Custom panels are on the original CD in `BroodWar.mpq` - copy it into `data` too, or similar panels are used. The menu font is derived from Orbitron (SIL Open Font License, `FONT-LICENSE.txt`).
 
 **New in v0.7.6:** a LOGIC setting (FAST / FASTEST) for crowded late games, save and load, computer versus computer, and a scrolling start menu.
