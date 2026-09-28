@@ -160,6 +160,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.7.11:** a faster start. In 320x240 only the frame table of each unit graphics file is read - 21 s instead of 133 s on a 68020 without JIT - and every other file is taken from the archive in one piece instead of 4 KB at a time.
+
 **New in v0.7.10:** data preparation for the modern free re-release works again - versions 0.7.6 to 0.7.9 carried an old `casc-extract.exe` that stopped at the maps. The LOGIC setting has a fourth step, 1/8, and the steps are now named by the share of ticks a unit thinks on: 1/1 (exactly the original), 1/2, 1/4, 1/8. A machine without AGA but with a graphics card (ECS with a Picasso, a Voodoo, an Indivision ECS) no longer quits when the settings ask for an AGA mode - it uses the card. The FPS counter shows the average of the last five seconds instead of jumping between single seconds.
 
 **New in v0.7.9:** much less memory, for 64 MB machines. In 320x240 the full-size graphics are not loaded at all once the converted ones exist (about 28 MB less and a shorter start), and the terrain is no longer held twice (8-10 MB less in every mode). 320x240 now needs about 12 MB less than 640x480 - it used to need 8 MB more. Switching to 640x480 in the menu loads the full graphics then, once, with no restart. The menu also shows the Workbench title bar when it is switched on, and credits the port's author.
