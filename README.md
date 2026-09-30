@@ -160,6 +160,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.0b:** single player and the campaigns work with data converted from the modern free re-release. That data has no files of the original menu, so the port shows its own: SINGLE PLAYER starts a skirmish, CAMPAIGN opens the episodes, the missions and a text briefing (no portraits - the modern release keeps them in a format the Amiga cannot play). Run the new `prepare-data` from the package; it writes `BroodWar.mpq` with the campaigns. Also fixed: from the second match on, parts of the screen could stay black in the AGA modes.
+
 **New in v0.8.0a:** the campaigns, as an alpha. Single Player opens the campaigns of the original and of the expansion - episode choice, mission list, the briefing with portraits and text (no speech), the missions with their scripted events, messages and objectives, victory to the next mission and defeat back to the briefing, progress kept per player ID. It needs the original data plus `BroodWar.mpq` from the original CD in `data`; data converted from the modern re-release does not carry the campaign screens yet. Every mission loads and runs, not every one has been played to its end. Also new: named saved games (F10 / Game Menu: Save Game, Load Game), Restart Mission, and returning to the menu after a match takes about 2 s instead of minutes.
 
 **New in v0.7.11:** a faster start. In 320x240 only the frame table of each unit graphics file is read - 21 s instead of 133 s on a 68020 without JIT - and every other file is taken from the archive in one piece instead of 4 KB at a time.
@@ -303,7 +305,7 @@ This is where the alpha shows.
   machine's own is the only one.
 * **The music starts with the match, not with the menu**: the audio device is
   opened when a game begins.
-* **The campaigns are an alpha**: no speech, no cinematics, not every mission played to its end, original data only.
+* **The campaigns are an alpha**: no speech, no cinematics, not every mission played to its end; with data from the modern re-release the briefings have no portraits and the menu is the port's own.
 * **Saved games from earlier versions** cannot be loaded.
 * **No multiplayer.** Computer opponents only, for now.
 
