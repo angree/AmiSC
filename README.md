@@ -160,6 +160,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.0b3:** Original mode. Single Player offers ORIGINAL and EXPANSION, as on the PC. Original behaves as if the expansion did not exist - no expansion units, upgrades or technologies, the computer plays the original game's scripts, expansion maps are not offered, and the campaign shows episodes I-III. The choice is remembered, and saved games keep their mode.
+
 **New in v0.8.0b2:** fixes from the first campaign reports. Sound on every start (before, only the first start after a boot had sound), Terran buildings lift off and land, CONTINUE after a mission goes on to the next one, music and sound effects volume, mission messages fit the 320x240 screen, real mission titles, no expansion units in the original campaign, rescued units keep their colour, and fixes in Terran missions 2, 3 and 4.
 
 **New in v0.8.0b:** single player and the campaigns work with data converted from the modern free re-release. That data has no files of the original menu, so the port shows its own: SINGLE PLAYER starts a skirmish, CAMPAIGN opens the episodes, the missions and a text briefing (no portraits - the modern release keeps them in a format the Amiga cannot play). Run the new `prepare-data` from the package; it writes `BroodWar.mpq` with the campaigns. Also fixed: from the second match on, parts of the screen could stay black in the AGA modes.
