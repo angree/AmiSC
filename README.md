@@ -160,6 +160,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.0:** the campaigns. Both campaigns of the original and of the expansion, with briefings, mission objectives, named saved games and Restart Mission (introduced in the v0.8.0a-b3 test builds). On top of those: the mouse pointer shows what is under it - a green ring over your own unit, yellow over a neutral or allied one, red over an enemy, and a sight in the same colours while an order waits for its target; the installation traps of the fourth Terran mission can be attacked and destroyed; and the main menu of the port's own interface shows the music and sound levels on its OPTIONS row.
+
 **New in v0.8.0b3:** Original mode. Single Player offers ORIGINAL and EXPANSION, as on the PC. Original behaves as if the expansion did not exist - no expansion units, upgrades or technologies, the computer plays the original game's scripts, expansion maps are not offered, and the campaign shows episodes I-III. The choice is remembered, and saved games keep their mode.
 
 **New in v0.8.0b2:** fixes from the first campaign reports. Sound on every start (before, only the first start after a boot had sound), Terran buildings lift off and land, CONTINUE after a mission goes on to the next one, music and sound effects volume, mission messages fit the 320x240 screen, real mission titles, no expansion units in the original campaign, rescued units keep their colour, and fixes in Terran missions 2, 3 and 4.
