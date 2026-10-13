@@ -160,6 +160,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.1:** the original menu for players with the modern free re-release. `prepare-data` now also converts the menu, the campaign screens, the briefing portraits and the in-game dialogs, so those players get the same menu as players with the CD - run the new `prepare-data` again. Fixed: hero units have their abilities (the ghost heroine can cloak in the fifth Terran mission; heroes need no research, as in the original), a selection of more than six units shows all of them in two rows, and a cloaked unit no longer flickers into view with the logic skip on.
+
 **New in v0.8.0:** the campaigns. Both campaigns of the original and of the expansion, with briefings, mission objectives, named saved games and Restart Mission (introduced in the v0.8.0a-b3 test builds). On top of those: the mouse pointer shows what is under it - a green ring over your own unit, yellow over a neutral or allied one, red over an enemy, and a sight in the same colours while an order waits for its target; the installation traps of the fourth Terran mission can be attacked and destroyed; and the main menu of the port's own interface shows the music and sound levels on its OPTIONS row.
 
 **New in v0.8.0b3:** Original mode. Single Player offers ORIGINAL and EXPANSION, as on the PC. Original behaves as if the expansion did not exist - no expansion units, upgrades or technologies, the computer plays the original game's scripts, expansion maps are not offered, and the campaign shows episodes I-III. The choice is remembered, and saved games keep their mode.
@@ -311,7 +313,7 @@ This is where the alpha shows.
   machine's own is the only one.
 * **The music starts with the match, not with the menu**: the audio device is
   opened when a game begins.
-* **The campaigns are an alpha**: no speech, no cinematics, not every mission played to its end; with data from the modern re-release the briefings have no portraits and the menu is the port's own.
+* **The campaigns are an alpha**: no speech, no cinematics, not every mission played to its end.
 * **Saved games from earlier versions** cannot be loaded.
 * **No multiplayer.** Computer opponents only, for now.
 
