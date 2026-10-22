@@ -160,6 +160,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.4:** speech in the campaigns - mission transmissions and the briefings speak, streamed while they play - plus the menu's own sounds, and menu and briefing videos decoded once into `data/menu-video-*.pack` so they cost almost nothing at 320x240 and at 640x480. **To hear the speech, data converted from the modern re-release must be converted again with this package's `prepare-data`; with the original CDs, copy `INSTALL.EXE` from the expansion CD as `Install_BW.exe` and from the original CD as `Install_SC.exe` into `data`.**
+
 **New in v0.8.3:** a readable 320x240 menu - its text is drawn in a small font with a shadow and long briefings scroll - and a MENU SIZE option that keeps every menu and briefing at 640x480 while the game plays at 320x240. Briefing videos decode two to four times faster. Fixed: the base of the fifth Terran mission now really joins the player (bunker crews too, also in older saves), the teleporters of the fourth Terran mission move every marine at once, and loading a mission shows its name.
 
 **New in v0.8.2:** the original menu at 320x240. With a 320x240 video mode the menu, the campaign screens, the briefings and the in-game Game Menu stay at 320x240; their pictures are reduced once, with smoothing, into `data/menu-lores.pack` on the first start. The menu and the briefings are faster, and a MENU option chooses the original or the Amiga menu. Fixed: the base of the fifth Terran mission goes over to the player after its commander dies, doors in the fourth Terran mission look and behave as they should, the command card no longer offers units the mission does not allow, ability buttons show icons, the speaker's name in mission messages is yellow, the loading screen keeps the menu's picture, and a player who is not in the first slot gets the right console.
@@ -317,7 +319,7 @@ This is where the alpha shows.
   machine's own is the only one.
 * **The music starts with the match, not with the menu**: the audio device is
   opened when a game begins.
-* **The campaigns are an alpha**: no speech, no cinematics, not every mission played to its end.
+* **The campaigns are an alpha**: no cinematics, not every mission played to its end. While music plays, speech comes from the right speaker only.
 * **Saved games from earlier versions** cannot be loaded.
 * **No multiplayer.** Computer opponents only, for now.
 
