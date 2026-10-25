@@ -30,7 +30,7 @@ Amiga) and `.zip` (if you prefer to unpack on a PC and copy the drawer across).
 | OS | AmigaOS 3.0 or later |
 | CPU | 68020 minimum, **no FPU required** |
 | Graphics | AGA chipset, or a graphics card (RTG / Picasso96); OCS/ECS with `SC_ECS` (320×240, 64 colours) |
-| OS (alt.) | AROS 68k |
+| OS (alt.) | AROS 68k, MorphOS (68k code through its built-in JIT) |
 | RAM | enough for ~20 MB of sprite graphics, plus sound samples as they are first heard |
 | Audio | Paula, i.e. any Amiga. Four channels: two for music, the rest for effects |
 | Disk | 250–620 MB for the data files, depending on which release you take them from |
@@ -162,6 +162,8 @@ Skirmish against computer opponents, all three races, fog of war, the command
 card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
+
+**New in v0.8.6:** MorphOS compatible - the same 68k programs run on AmigaOS 3.x, AROS 68k and MorphOS. On MorphOS the game opens a 16/32-bit screen and converts its colours while drawing, because many MorphOS graphics cards have no 8-bit modes; use `SC_universal`. Tested in an emulated MorphOS 3.20; reports from real machines are welcome.
 
 **New in v0.8.5:** `SC_ECS` for Amigas without AGA and without a graphics card - 320×240 in 64 colours (Extra Half-Brite), the colours fitted per map with each of up to three players keeping its own colour; `SC_universal` picks it by itself. The same programs run on AROS 68k, including the older ROM built into WinUAE that used to show a black screen. Transports have LOAD and UNLOAD, and UNLOAD asks for a destination. Fifth Terran mission: the whole base is visible once its commander dies and joins you as your units walk up; sixth Terran mission: the trapped troops are visible.
 
