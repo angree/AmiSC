@@ -30,7 +30,7 @@ Amiga) and `.zip` (if you prefer to unpack on a PC and copy the drawer across).
 | OS | AmigaOS 3.0 or later |
 | CPU | 68020 minimum, **no FPU required** |
 | Graphics | AGA chipset, or a graphics card (RTG / Picasso96); OCS/ECS with `SC_ECS` (320×240, 64 colours) |
-| OS (alt.) | AROS 68k, MorphOS (68k code through its built-in JIT) |
+| OS (alt.) | AROS 68k, MorphOS (the 68k programs through its built-in JIT, or the native PowerPC `SC_MorphOS`) |
 | RAM | enough for ~20 MB of sprite graphics, plus sound samples as they are first heard |
 | Audio | Paula, i.e. any Amiga. Four channels: two for music, the rest for effects |
 | Disk | 250–620 MB for the data files, depending on which release you take them from |
@@ -162,6 +162,8 @@ Skirmish against computer opponents, all three races, fog of war, the command
 card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
+
+**New in v0.8.7:** a native MorphOS program - `SC_MorphOS`, the game compiled for PowerPC, in the same package and reading the same `data` and `maps`; its title bar says `AmiSC MorphOS PPC`, and computer-vs-computer matches play out identically to the 68k programs. The game no longer takes all of the CPU on a fast machine: outside MAXIMUM speed it draws at most 50 frames a second on AGA/ECS and 60 on a graphics card (`fps_cap N` in bwshow.cfg, 0 = no limit). The loading window opens centred, and a strip some MorphOS cards showed under the mouse pointer has its likely cause fixed.
 
 **New in v0.8.6:** MorphOS compatible - the same 68k programs run on AmigaOS 3.x, AROS 68k and MorphOS. On MorphOS the game opens a 16/32-bit screen and converts its colours while drawing, because many MorphOS graphics cards have no 8-bit modes; use `SC_universal`. Tested in an emulated MorphOS 3.20; reports from real machines are welcome.
 
