@@ -163,6 +163,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.9:** fixes from testers' reports - in Terran mission 6 the trapped troops become yours when the enemy first attacks them (they were never attacked, so they never joined); with data converted from the modern release the Multiplayer button of the original menu shows a still picture under the mouse (it showed nothing) - no new conversion needed; a game speed changed during a match is kept for the next one.
+
 **New in v0.8.8:** fixes from testers' reports - the LOGIC setting (and game speed, scrolling, the title bar option) is kept after a match instead of going back to its old value, and after trying the ECS/OCS mode and switching back the original menu and its size return.
 
 **New in v0.8.7:** a native MorphOS program - `SC_MorphOS`, the game compiled for PowerPC, in the same package and reading the same `data` and `maps`; its title bar says `AmiSC MorphOS PPC`, and computer-vs-computer matches play out identically to the 68k programs. The game no longer takes all of the CPU on a fast machine: outside MAXIMUM speed it draws at most 50 frames a second on AGA/ECS and 60 on a graphics card (`fps_cap N` in bwshow.cfg, 0 = no limit). The loading window opens centred, and a strip some MorphOS cards showed under the mouse pointer has its likely cause fixed.
