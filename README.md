@@ -163,6 +163,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.12:** the data converter takes texts, briefings, mission names and speech in English again, also on a PC with the game installed in another language (0.8.10 took the installed language). For your own language run `prepare-data.bat --lang=deDE` (or frFR, esES ...). Data you already converted keeps working.
+
 **New in v0.8.11:** starting a match in 320x240 (lores) from the original menu no longer leaves a black screen - the "convert graphics once?" question is now visible.
 
 **New in v0.8.10:** the final data converter for the modern free release - it converts everything the port can use, now and later (missions, menu, multiplayer screens, fonts, texts); run it once more, this is the last time. Old converted data still works: the game says at start that some new graphics may be missing. With the new conversion the menu uses the original fonts. The displaced picture on the Multiplayer button is gone.
