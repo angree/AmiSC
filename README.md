@@ -163,6 +163,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.14:** orders aimed on the minimap land where you clicked (Scanner Sweep, move, attack, rally); ATTACK on a unit attacks it, critters and own buildings included; the unit in production can be cancelled; CLOAK/DECLOAK works while fading in; energy as numbers in the selection panel; Bunker UNLOAD ALL; a longer order marker and a rally-point line; new voices (under attack, unit ready, job finished, research/upgrade complete, rescue, annoyed lines); umlauts and other accented letters in briefings show correctly without re-converting; the converter's `--lang` falls back to the installed language and logs less; edge scrolling has a new choice ORIGINAL (the pointer at the screen edge itself, 16 px at the top while the title bar is shown).
+
 **New in v0.8.13:** saved games can live anywhere - add `save_dir Work:AmiSC-saves` (any path) to `bwshow.cfg`. Save Game, Load Game and the F5 quicksave all use it; the folder is created on the first save. Without the line nothing changes (`PROGDIR:save`).
 
 **New in v0.8.12:** the data converter takes texts, briefings, mission names and speech in English again, also on a PC with the game installed in another language (0.8.10 took the installed language). For your own language run `prepare-data.bat --lang=deDE` (or frFR, esES ...). Data you already converted keeps working.
