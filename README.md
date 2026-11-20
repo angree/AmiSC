@@ -163,6 +163,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.16:** control group 0 (Ctrl+0 / 0); alerts flash on the minimap (under attack, research and upgrade complete); Space jumps to the last alert; Shift+F2..F4 stores the view and F2..F4 goes back to it.
+
 **New in v0.8.15:** player IDs and campaign progress can live anywhere - add `profile_dir Work:AmiSC-profiles` (any path) to `bwshow.cfg`. On the first run with it, `players.cfg` and `campaign.cfg` are copied over from the program's drawer, so nothing is lost. Without the line nothing changes.
 
 **New in v0.8.14:** orders aimed on the minimap land where you clicked (Scanner Sweep, move, attack, rally); ATTACK on a unit attacks it, critters and own buildings included; the unit in production can be cancelled; CLOAK/DECLOAK works while fading in; energy as numbers in the selection panel; Bunker UNLOAD ALL; a longer order marker and a rally-point line; new voices (under attack, unit ready, job finished, research/upgrade complete, rescue, annoyed lines); umlauts and other accented letters in briefings show correctly without re-converting; the converter's `--lang` falls back to the installed language and logs less; edge scrolling has a new choice ORIGINAL (the pointer at the screen edge itself, 16 px at the top while the title bar is shown).
