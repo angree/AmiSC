@@ -163,6 +163,8 @@ card and unit abilities, minimap, production queues, the full range of game
 speeds, victory and defeat, sound effects, unit voices and music. Data from
 either release of the original.
 
+**New in v0.8.17:** the campaign's story screens between missions (title card / narration before each briefing, epilogue at the end), as in the original; a single click on a moving unit selects it reliably, also during transmissions; new colour program icons contributed by a player (classic, NewIcons and OS 3.5 layers).
+
 **New in v0.8.16:** control group 0 (Ctrl+0 / 0); alerts flash on the minimap (under attack, research and upgrade complete); Space jumps to the last alert; Shift+F2..F4 stores the view and F2..F4 goes back to it.
 
 **New in v0.8.15:** player IDs and campaign progress can live anywhere - add `profile_dir Work:AmiSC-profiles` (any path) to `bwshow.cfg`. On the first run with it, `players.cfg` and `campaign.cfg` are copied over from the program's drawer, so nothing is lost. Without the line nothing changes.
